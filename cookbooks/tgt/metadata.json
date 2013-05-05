@@ -1,0 +1,32 @@
+{
+  "name": "tgt",
+  "description": "Install and configures (eventually) tgt",
+  "long_description": "Description\n===========\n\nThis cookbook includes recipes to install tgt and\nconfigure it (eventually) on the local node.",
+  "maintainer": "hastexo GMBH",
+  "maintainer_email": "noah.mehl@hastexo.com",
+  "license": "GPL",
+  "platforms": {
+    "ubuntu": ">= 0.0.0",
+    "debian": ">= 0.0.0"
+  },
+  "dependencies": {
+    depends "apt"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.0.1"
+}
