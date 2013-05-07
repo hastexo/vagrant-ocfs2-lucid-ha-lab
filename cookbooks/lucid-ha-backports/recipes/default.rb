@@ -55,6 +55,11 @@ package "dlm-pcmk" do
     action :install
 end
 
+package "nfs-kernel-server" do
+    package_name "nfs-kernel-server"
+    action :install
+end
+
 execute "move corosync support files into place" do
     command "cp /vagrant/linux-ha/corosync.conf /etc/corosync/; cp /vagrant/linux-ha/authkey /etc/corosync/; cp /vagrant/linux-ha/pacemaker /etc/corosync/service.d/"
 end

@@ -12,82 +12,82 @@ Thumbs.db
 
 # SASS #
 ########
-.sass-cache
+#.sass-cache
 
 # EDITORS #
 ###########
-\#*
-.#*
-*~
-*.sw[a-z]
-*.bak
-REVISION
-TAGS*
-tmtags
-*_flymake.*
-*_flymake
-*.tmproj
-.project
-.settings
-mkmf.log
+#\#*
+#.#*
+#*~
+#*.sw[a-z]
+#*.bak
+3REVISION
+#TAGS*
+#tmtags
+#*_flymake.*
+#*_flymake
+#*.tmproj
+#.project
+#.settings
+#mkmf.log
 
 ## COMPILED ##
 ##############
-a.out
-*.o
-*.pyc
-*.so
-*.com
-*.class
-*.dll
-*.exe
-*/rdoc/
+#a.out
+#*.o
+#*.pyc
+#*.so
+#*.com
+#*.class
+#*.dll
+#*.exe
+#*/rdoc/
 
 # Testing #
 ###########
-.watchr
-.rspec
-spec/*
-spec/fixtures/*
-test/*
-features/*
-Guardfile
-Procfile
+#.watchr
+#.rspec
+#spec/*
+#spec/fixtures/*
+#test/*
+#features/*
+#Guardfile
+#Procfile
 
 # SCM #
 #######
-.git
+#.git
 */.git
 #.gitignore
-.gitmodules
-.gitconfig
-.gitattributes
-.svn
-*/.bzr/*
-*/.hg/*
-*/.svn/*
+#.gitmodules
+#.gitconfig
+#.gitattributes
+#.svn
+#*/.bzr/*
+#*/.hg/*
+#*/.svn/*
 
 # Berkshelf #
 #############
-Berksfile
-Berksfile.lock
+#Berksfile
+#Berksfile.lock
 #cookbooks/*
-tmp
+#tmp
 
 # Test-kitchen
-.kitchen
+#.kitchen
 
 # Cookbooks #
 #############
-CONTRIBUTING
-CHANGELOG*
+#CONTRIBUTING
+#CHANGELOG*
 
 # Strainer #
 ############
-Colanderfile
-Strainerfile
-.colander
-.strainer
+#Colanderfile
+#Strainerfile
+#.colander
+#.strainer
 
 # Vagrant #
 ###########
@@ -96,7 +96,7 @@ Strainerfile
 
 # Travis #
 ##########
-.travis.yml
+#.travis.yml
 
 # vagrant-ocf2-lab
 *.vdi
@@ -108,3 +108,7 @@ Strainerfile
 # Corosync Authkey #
 ####################
 linux-ha/authkey
+
+# Scripts #
+###########
+scripts
